@@ -17,7 +17,7 @@ spec:
         app: solar-system
     spec:
       containers:
-      - image: siddharth67/solar-system:3e906e3be059342b1916f020c034344fb267ddca
+      - image: chakribaggam123/demo:3e906e3be059342b1916f020c034344fb267ddca
         imagePullPolicy: Always
         name: solar-system
         ports:
@@ -26,4 +26,5 @@ spec:
           protocol: TCP
         envFrom:
         - secretRef:
+
             name: mongo-db-creds
