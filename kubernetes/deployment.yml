@@ -17,7 +17,7 @@ spec:
         app: solar-system
     spec:
       containers:
-      - image: chakribaggam123/demo:3e906e3be059342b1916f020c034344fb267ddca
+      - image: chakribaggam123/demo:fc8f89e536ab7b8ff860a584cc441bb15bfc1221
         imagePullPolicy: Always
         name: solar-system
         ports:
